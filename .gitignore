@@ -1,0 +1,33 @@
+# Build results
+bin/
+obj/
+out/
+[Ll]og/
+*.log
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+
+# Rider / VSCode
+.idea/
+.vscode/
+*.code-workspace
+
+# ASP.NET specific
+appsettings.Development.json
+appsettings.*.json
+
+# DotNet publish
+publish/
+
+# Test Results
+TestResults/
+*.trx
+
+# Others
+*.DS_Store
+Thumbs.db
