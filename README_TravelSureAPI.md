@@ -90,6 +90,8 @@ Tested using `xUnit`:
 - Register with existing email → returns BadRequest
 - Register with existing username → returns BadRequest
 - Register new valid user → succeeds
+- Login With correct credentials → succeeds
+- Login With wrong password -> returns unauthorized
 
 ---
 
@@ -100,20 +102,3 @@ Tested using `xUnit`:
 
 ---
 
-## 📂 Folder Structure
-```
-TravelSureAPI/
-├── Controllers/
-│   └── UsersController.cs
-├── Models/
-│   ├── UserAccount.cs
-│   ├── LoginRequest.cs
-│   └── UserStore.cs
-├── Program.cs
-├── TravelSureAPI.csproj
-└── ...
-
-TravelSureAPI.Tests/
-├── UserControllerTests.cs
-└── TravelSureAPI.Tests.csproj
-```
